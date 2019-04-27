@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b696c4bd-16a1-4314-9d16-8c3045cf5eda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBase/src/main/java/com/johnson/spring/schedule/ScheduleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBase/src/main/java/com/johnson/spring/schedule/ScheduleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBase/target/classes/com/johnson/spring/schedule/ScheduleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBase/target/classes/com/johnson/spring/schedule/ScheduleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBase/src/main/java/com/johnson/spring/springbase1/FunctionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBase/src/main/java/com/johnson/spring/springbase1/FunctionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBase/src/main/java/com/johnson/spring/springbase1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBase/src/main/java/com/johnson/spring/springbase1/UseFunctionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBase/src/main/java/com/johnson/spring/springbase2/FuncConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBase/src/main/java/com/johnson/spring/springbase2/FunctionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBase/src/main/java/com/johnson/spring/springbase2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBase/src/main/java/com/johnson/spring/springbase2/UseFunctionService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/SpringBase/target/" />
@@ -246,16 +251,6 @@
               <item name="johnson" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpringPack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="johnson" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -373,9 +368,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49887893" visible="true" weight="0.25347635" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887893" visible="true" weight="0.25347635" />
       <window_info id="Structure" order="1" sideWeight="0.5011211" side_tool="true" weight="0.25347635" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -383,12 +377,12 @@
       <window_info id="Favorites" order="5" sideWeight="0.5011211" side_tool="true" weight="0.25347635" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3047545" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3047545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32969603" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
@@ -406,6 +400,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SpringBase/src/main/java/com/johnson/spring/springbase1/FunctionService.java">
