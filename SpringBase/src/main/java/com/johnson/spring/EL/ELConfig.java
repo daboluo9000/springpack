@@ -27,7 +27,7 @@ public class ELConfig {
     @Value("#{T(java.lang.Math).random()*100.0}")
     private double randomeNumber;
 
-    @Value("#demoService.another")
+    @Value("#{demoService.another}")
     private String fromAnother;
 
     @Value("classpath:test.txt")
