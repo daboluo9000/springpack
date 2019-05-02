@@ -15,7 +15,7 @@ public class MyMVCConfig {
     @Bean
     public InternalResourceViewResolver viewResolver(){
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-        viewResolver.setPrefix("/WEB-INF/classes/templates");
+        viewResolver.setPrefix("/WEB-INF/classes/templates/");
         viewResolver.setSuffix(".jsp");
         viewResolver.setViewClass(JstlView.class);
         return viewResolver;
